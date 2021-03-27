@@ -1,0 +1,16 @@
+{
+  "namespace": "congnghetuts.com.avro",
+  "type": "record",
+  "name": "Person",
+  "doc": "Day la model person",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    }
+  ]
+}
