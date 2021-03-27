@@ -1,1 +1,1 @@
-https://congnghetuts.com/2021/03/27/quarkus-swagger/
+https://congnghetuts.com/2021/03/24/su-dung-arvo-trong-quarkus/
