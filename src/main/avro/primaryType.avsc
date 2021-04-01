@@ -1,0 +1,40 @@
+{
+  "namespace": "congnghetuts.com.avro",
+  "type": "record",
+  "name": "PrimaryType",
+  "doc": "Day la model su dung primary type",
+  "fields": [
+    {
+      "name": "intN",
+      "type": "int"
+    },
+    {
+      "name": "stringN",
+      "type": "string"
+    },
+    {
+    "name": "nullN",
+    "type": "null"
+    },
+    {
+       "name": "floatN",
+       "type": "float"
+    },
+    {
+        "name": "longN",
+       "type": "long"
+    },
+    {
+        "name": "booleanN",
+        "type": "boolean"
+    },
+    {
+       "name": "bytesN",
+       "type": "bytes"
+    },
+    {
+       "name": "doubleN",
+       "type": "double"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+ {
+            "namespace": "congnghetuts.com.avro",
+            "name": "mapTest",
+            "type": "record",
+            "doc": "Vi du map type",
+            "fields": [
+               {"name": "mapN", "type": {"type": "map", "values": "string"}}
+              ]
+
+ }

@@ -1,0 +1,8 @@
+ {
+            "namespace": "congnghetuts.com.avro",
+            "name": "enumTest",
+            "type": "enum",
+            "doc": "Day la enum",
+            "symbols": ["value1", "value2", "all"]
+
+ }
