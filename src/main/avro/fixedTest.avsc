@@ -1,0 +1,9 @@
+ {
+      "namespace": "congnghetuts.com.avro",
+      "name": "fixedTest",
+      "type": "record",
+      "doc": "Vi du ve fixed type",
+      "fields": [
+             {"name": "fixedN", "type": {"type": "fixed", "name": "FixedN", "size": 10}}
+      ]
+ }
