@@ -1,0 +1,99 @@
+[
+    {
+      "namespace": "congnghetuts.com.avro",
+      "type": "record",
+      "name": "ObjectType",
+      "doc": "Day la vi du ve ObjectType",
+      "fields": [
+            {
+              "name": "id",
+              "type": [
+                       "null",
+                       "int"
+                   ]
+            },
+            {
+             "name": "name",
+             "type": [
+                       "null",
+                       "string"
+                   ]
+            }
+      ]
+    },
+    {
+      "namespace": "congnghetuts.com.avro",
+      "type": "record",
+      "name": "DefaultValue",
+      "doc": "Day la vi du ve default value cua mot so loai du lieu",
+      "fields": [
+            {
+                  "name": "status",
+                  "type": [
+                           "null",
+                           "boolean"
+                       ]
+            },
+            {
+                  "name": "length",
+                  "type": [
+                        "null",
+                        "double"
+                  ]
+            },
+            {
+                    "name": "size",
+                    "type": [
+                        "null",
+                        "float"
+                   ]
+            },
+            {
+                    "name": "objectType",
+                    "type": [
+                           "null",
+                           "ObjectType"
+                    ]
+            },
+            {
+                    "name": "arraylists",
+                    "type": [
+                           "null",
+                           {
+                               "type": "array",
+                               "items": "int"
+                           }
+                    ]
+            },
+            {
+                  "name": "arrayStringLists",
+                  "type": [
+                        "null",
+                        {
+                            "type": "array",
+                            "items": "string"
+                        }
+                  ]
+             },
+            {
+               "name": "recordN",
+               "type": [
+                   "null",
+                   {
+                       "name": "Record",
+                       "type": "record",
+                       "fields": [
+                          {
+                             "name": "enable",
+                             "type": [
+                                "null",
+                                "boolean"
+                             ]
+                          }
+                       ]
+                   }
+               ]
+            }
+      ]
+    }
+]
